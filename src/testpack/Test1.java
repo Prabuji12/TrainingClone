@@ -13,7 +13,7 @@ public class Test1 extends InitDriver{
 	
 	static Logger log = Logger.getLogger(Test1.class.getName());
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void test1() {
 		System.out.println("Hello");
 		//homepage.clickReferenceMenuLink();
